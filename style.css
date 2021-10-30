@@ -43,3 +43,46 @@ nav ul li a{
 a.active,a:hover{
     background: #ff5a0b;
 }
+.container{
+    text-align: center;
+    margin-top: 480px;
+}
+.btn1{
+    border: 1px solid #ff5a0b;
+    background: firebrick;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px;
+    color: #fff2bc;
+    animation: join 4s ease forwards;
+}
+.btn1:hover{
+    animation: after 2s ease;
+    
+}
+a.btn1{
+    color: #fff2bc;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+@keyframes join{
+from{ padding: 10px 20px;
+}
+to{
+    padding: 10px 200px;
+}
+}
+
+@keyframes after {
+    from{
+        padding: 10px 200px;
+    }
+    to{
+        padding: 10px 20px;
+    }
+    
+}
