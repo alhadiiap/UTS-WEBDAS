@@ -43,3 +43,69 @@ nav ul li a{
 a.active,a:hover{
     background: #ff5a0b;
 }
+table{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.table img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.btn1{
+    border: 1px solid #ff5a0b;
+    background: firebrick;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 10px;
+    color: #fff2bc;
+}
+.btn1:hover{
+    animation: uluwatu 2s ease forwards;
+}
+
+.seminyak{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.btn2{
+    border: 1px solid #ff5a0b;
+    background: firebrick;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 10px;
+    color: #fff2bc;
+
+}
+.btn2:hover{
+    animation: uluwatu 2s ease forwards;
+    
+}
+
+@keyframes uluwatu {
+    from{
+        padding: 10px 30px;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    to{
+        padding: 10px 40px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+}
+
+td{
+    padding-left: 30px;
+    padding-top: 30px;
+}
