@@ -9,20 +9,24 @@
 body
 {
     font-family:  montserrat;
+    background-image:url(src/balii.jpg) ;
+    background-size: cover;
+    background-position: 0 -100px;
 }
 nav{
-    background-color: #f00;
+    background-color: #4abdac;
     height: 70px;
     width: 100%;
 }
-label.logo{
+label{
     color: #fff2bc;
     font-size: 35px;
     line-height: 80px;
-    padding: 0 100px;
+    padding: 0 10px;
     font-weight: bold;
     margin: -5px 0px;
 }
+
 nav ul{
     float: right;
     margin-right: 20px;
@@ -39,17 +43,22 @@ nav ul li a{
     text-transform: uppercase;
     padding: 8px 15px;
     border-radius: 3px;
+    transition:1s;
 }
-a.active,a:hover{
-    background: #ff5a0b;
+a.active{
+    background: #f7b733;
 }
+a:hover{
+    background: #fc4a1a;
+}
+
 .container{
     text-align: center;
     margin-top: 480px;
 }
 .btn1{
-    border: 1px solid #ff5a0b;
-    background: firebrick;
+    border: 1px solid #f7b733;
+    background: transparent;
     border-radius: 10px;
     padding: 10px 20px;
     font-size: 30px;
@@ -57,9 +66,11 @@ a.active,a:hover{
     margin: 10px;
     color: #fff2bc;
     animation: join 4s ease forwards;
+    transition: 1s;
 }
 .btn1:hover{
     animation: after 2s ease;
+    background: #f7b733;
     
 }
 a.btn1{
@@ -69,6 +80,7 @@ a.btn1{
     padding: 8px 15px;
     border-radius: 3px;
 }
+
 @keyframes join{
 from{ padding: 10px 20px;
 }
