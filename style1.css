@@ -40,8 +40,8 @@ nav ul li a{
     font-size: 17px;
     text-transform: uppercase;
     padding: 8px 15px;
-    border-radius: 3px;
-    transition: 0.5s;
+    border-radius: 5px;
+    transition: 1.5s;
 }
 a.active{
     background: #f7b733;
@@ -62,7 +62,8 @@ table{
     width: 200px;
     height: 200px;
     border-radius: 10px;
-    margin-left: 100px;
+    margin-left: 0px;
+    animation: gambar ease 2s forwards;
 }
 .btn1{
     border: 2px solid #f7b733;
@@ -82,10 +83,7 @@ table{
     animation: uluwatu 2s ease forwards;
 }
 
-.seminyak{
-    text-align: center;
-    padding-top: 50px;
-}
+
 
 .btn2{
     border: 2px solid #f7b733;
@@ -122,6 +120,42 @@ table{
 }
 
 td{
-    padding-left: 30px;
-    padding-top: 30px;
+   padding: 0 150px;
+   padding-left: 10px;
+   margin: 150px 150px;
+}
+i{
+    margin-right: 8px;
+}
+
+.btn3{
+    border: 2px solid #f7b733;
+    background: firebrick;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 10px;
+    color: #fff2bc;
+    transition: 1s;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.btn3:hover{
+    background: #f7b733;
+    animation: uluwatu ease 2s ease forwards;
+
+}
+
+@keyframes gambar {
+    0%{
+        width: 200px;
+    }
+    50%{
+        width: 50px;
+    }
+    100%{
+        width: 200px;
+    }
+    
 }
