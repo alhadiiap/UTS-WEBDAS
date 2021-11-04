@@ -182,33 +182,3 @@ h1{
     margin-bottom: 0;
 }
  
-@media screen and (max-width:1080px)
-{
-    
- 
-    .menu-tengah
-    {
-        width: 68%;
-        float: right;
-    }
-}
-
- 
-@media screen and (max-width:780px)
-{
-    header h2, header p
-    {
-        text-align: center;
-    }
- 
- .menu-tengah
-    {
-        float: none;
-        width: 100%;
-    }
- 
-    .navigasi li {
-        float: none;
-        position: sticky;
-    }
-}
