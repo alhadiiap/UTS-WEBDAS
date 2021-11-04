@@ -170,39 +170,3 @@ a:hover{
 }
  
 
- 
- 
-@media screen and (max-width:1080px)
-{
-    .badan-utama
-    {
-        width: 100%;
-    }
- 
-
- 
-    .menu-tengah
-    {
-        width: 68%;
-        float: right;
-    }
-} 
-
- 
-@media screen and (max-width:780px)
-{
-    header h2, header p
-    {
-        text-align: center;
-    }
- 
- .menu-tengah
-    {
-        float: none;
-        width: 100%;
-    }
- 
-    .navigasi li {
-        float: none;
-    }
-}
