@@ -1,47 +1,66 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+   
 }
  
 body{
     background-color:#dfdce3;
+    font-family: montserrat;
+    
 }
-
+ 
 .badan-utama
 {
     max-width: 1080px;
-    margin: 80px auto;
+    margin: 90px auto;
     background-color:#dfdce3;
     padding: 15px;
     overflow: hidden;
 }
-a.link{
-    color: black;
-}
-.link:hover{
-    color:white;
-    background-color: tan;
-}
 img{
-    border: 10px solid #dfdce3;
+    
+    background-color:#dfdce3;
+    border-radius: 10px;
+    margin-right: 8px;
+    animation: gambar 1.5s ease forwards;
+    margin-left: 8px;
 }
+
 p{
     text-align: justify;
 }
-
+h4{
+    font-size: 20px;
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+h5{
+    font-size: 20px;
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
 header
 {
     background-color: #4abdac;
     color: white;
     padding: 30px;
-
 }
+ 
 header h2
 {
     margin-bottom: 30px;
     font-size: 35px;
-    padding: 15px;
+    padding: 20px;
+}
+a.link{
+    color:black;
+}
+.link :hover{
+    color: teal;
+    background-color:#dfdce3 ;
 }
 nav{
     background-color: #4abdac;
@@ -75,7 +94,6 @@ display: inline-block;
 line-height: 80px;
 margin: -3px 15px;
 }
-
 nav ul li a{
     color: #fff2bc;
     font-size: 17px;
@@ -93,7 +111,7 @@ a:hover{
 a{
     text-decoration: none;
 }
-
+ 
 .kotak
 {
     padding: 10px;
@@ -101,8 +119,7 @@ a{
  
 .kotak h3
 {
-    background-color: crimson;
-    color: white;
+    color: crimson;
     text-align: center;
     padding: 10px;
     font-size: 40px;
@@ -114,20 +131,13 @@ a{
     width: 40%;
 
 }
-
  
 .kotak p
 {
     margin-bottom: 50px;
 }
 
-h1{
-    font-size: 30px;
-    color:black;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-}
-
+ 
 .menu-tengah
 {
     width: 1080px;
@@ -141,9 +151,49 @@ h1{
     color: crimson;
 }
  
-
   .menu-tengah
 {
     margin-bottom: 0;
 }
  
+i{
+    margin-right: 8px;
+}
+
+@keyframes gambar {
+    0%{
+        width: 400px;
+    }
+    50%{
+        width: 600px;
+    }
+    100%{
+        width: 400px;
+    }
+    
+}
+
+hr{
+    border: 10px solid #fff2bc;
+    border-radius: 5px;
+}
+h3{
+    animation: bounce 1.5s ease infinite;
+    
+
+}
+@keyframes bounce {
+    20%,50%,80%, to{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    70%{
+        transform: translateY(-15px);
+    }
+    90%{
+        transform: translateY(-4px);
+    }
+    
+}
