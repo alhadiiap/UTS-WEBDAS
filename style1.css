@@ -67,7 +67,7 @@ table{
 }
 .btn1{
     border: 2px solid #f7b733;
-    background: firebrick;
+    background: #4abdac;
     border-radius: 10px;
     padding: 10px 30px;
     font-size: 10px;
@@ -121,7 +121,7 @@ table{
 
 td{
    padding: 0 150px;
-   padding-left: 10px;
+   padding-left: 120px;
    margin: 150px 150px;
 }
 i{
@@ -130,7 +130,7 @@ i{
 
 .btn3{
     border: 2px solid #f7b733;
-    background: firebrick;
+    background: #4abdac;
     border-radius: 10px;
     padding: 10px 30px;
     font-size: 10px;
@@ -143,19 +143,22 @@ i{
 }
 .btn3:hover{
     background: #f7b733;
-    animation: uluwatu ease 2s ease forwards;
+    animation: uluwatu 2s ease forwards;
 
 }
 
 @keyframes gambar {
     0%{
         width: 200px;
+        opacity: 0%;
     }
     50%{
         width: 50px;
+        opacity: 50%;
     }
     100%{
         width: 200px;
+        opacity: 100%;
     }
     
 }
