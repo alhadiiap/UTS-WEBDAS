@@ -1,11 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+   
 }
  
 body{
     background-color:#dfdce3;
+    font-family: montserrat;
+    
 }
  
 .badan-utama
@@ -17,8 +19,12 @@ body{
     overflow: hidden;
 }
 img{
-    border: 5px solid#dfdce3  ;
+    
     background-color:#dfdce3;
+    border-radius: 10px;
+    margin-right: 8px;
+    animation: gambar 1.5s ease forwards;
+    margin-left: 8px;
 }
 
 p{
@@ -150,3 +156,44 @@ a{
     margin-bottom: 0;
 }
  
+i{
+    margin-right: 8px;
+}
+
+@keyframes gambar {
+    0%{
+        width: 400px;
+    }
+    50%{
+        width: 600px;
+    }
+    100%{
+        width: 400px;
+    }
+    
+}
+
+hr{
+    border: 10px solid #fff2bc;
+    border-radius: 5px;
+}
+h3{
+    animation: bounce 1.5s ease infinite;
+    
+
+}
+@keyframes bounce {
+    20%,50%,80%, to{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    70%{
+        transform: translateY(-15px);
+    }
+    90%{
+        transform: translateY(-4px);
+    }
+    
+}
